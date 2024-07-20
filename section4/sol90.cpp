@@ -3,8 +3,8 @@
 #include <algorithm>
 #include <queue>
 using namespace std;
-int dx[4]={0,1,0,-1};
-int dy[4]={-1,0,1,0};
+int dx[4]={-1,0,1,0}; //x는 행번호,12시부터 시계방향으로 
+int dy[4]={0,1,0,-1};
 int map[27][27],ch[27][27];
 struct State{
 	int x,y,dis;
